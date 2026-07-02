@@ -1,38 +1,72 @@
-Flux Rural Intelligence
-Gêmeo Digital para Monitoramento de Nascentes e Gestão de Riscos Hídricos
+# 🌐 Flux Rural Intelligence
+### *Digital Twin para Gestão de Riscos Hídricos e Proteção de Nascentes*
+
+> **Nota:** Este projeto é uma solução de Engenharia Ambiental e Computacional focada em monitoramento de fluxo hídrico em tempo real.
+
+---
+
+## 🏗️ Visão Geral
+O **Flux Rural Intelligence** combina modelagem 3D, cálculos de CFD (*Computational Fluid Dynamics*) e geoprocessamento para simular o comportamento hídrico em microbacias. O objetivo é fornecer uma ferramenta de suporte à decisão para produtores rurais e órgãos ambientais.
+
+---
+
+## 🛠️ Stack Tecnológico (Core)
+
+| Categoria | Tecnologia | Prioridade/Finalidade |
+| :--- | :--- | :--- |
+| **Frontend** | React.js + Tailwind | Interface rápida e responsiva |
+| **Renderização 3D** | Three.js / Fiber | Simulação espacial e visualização |
+| **Geoprocessamento** | Python + QGIS | Processamento de dados de relevo |
+| **Simulação** | CFD & Flux Logic | Cálculo de volume e dispersão hídrica |
+| **Ambiente** | Node.js | Gerenciamento de pacotes |
+
+---
+
+## 📊 Resultados Técnicos
+Abaixo, a comparação visual da eficácia das estratégias de preservação implementadas no sistema:
+
+| Cenário | Estado da Nascente | Impacto Hídrico Estimado |
+| :--- | :--- | :--- |
+| **Antes** | Degradado (Desprotegido) | Alta erosão / Baixa retenção |
+| **Depois** | Recuperado (Flux-Intelligence) | Fluxo estável / Recarga do aquífero |
+
+---
+
+## 📸 Registros de Simulação
+
+### Cenário de Implementação (Antes vs Depois)
+
+![Estado Inicial](./src/assets/antes.png)
+![Estado Recuperado](./src/assets/depois.png)
+
+---
+
+## ⚙️ Como executar
+```bash
+# 1. Clone o repositório
+git clone [https://github.com/eniocarlossoilook34-netizen/Projeto-ExpoAgro.git](https://github.com/eniocarlossoilook34-netizen/Projeto-ExpoAgro.git)
+
+# 2. Instale as dependências
+npm install
+
+# 3. Inicie o ambiente de desenvolvimento
+npm run dev
 
 
-🎯 Sobre o Projeto
-O Flux Rural Intelligence é uma plataforma de monitoramento e simulação em tempo real, projetada para auxiliar na gestão de recursos hídricos e na proteção de nascentes. Utilizando tecnologias de Digital Twin e WebGL, o projeto permite que profissionais de engenharia e proprietários rurais visualizem o impacto de ações de preservação, como o cercamento de nascentes e o manejo de solo, com alta fidelidade geográfica.
 
-🛠 Tecnologias Utilizadas
-Este projeto foi desenvolvido com uma arquitetura moderna de alto desempenho:
-
-Frontend: React.js + Tailwind CSS (Interface Kiosk-Ready).
-
-Renderização 3D: Three.js / React-Three-Fiber (Simulação de terreno e erosão procedural).
-
-Análise Geográfica: Integração com dados GIS e processamento de fluxo hídrico (FastAPI/React).
-
-Versionamento: GitHub (Versionamento contínuo para portfólio profissional).
-
-🚀 Funcionalidades Principais
-Modos de Cenário: Alternância fluida entre terreno "Degradado" e ambiente de "Proteção (Flux)".
-
-Simulação de Fluxo: Jato de água procedural com cálculo de perda de carga e dispersão.
-
-Geologia Procedural: Sistema de rochas instanciadas e vegetação (Low-Poly Pro) com distribuição natural.
-
-Modo Demo (ExpoAgro): Sistema Kiosk com câmera tour automática e controle remoto via celular (QR Code).
-
-📸 Galeria de Visualização
-
-Figura 1: Sistema de proteção de nascente com vegetação nativa.
-![Antes do Cercamento](./src/assets/antes%20.png)
-Figura 2: Detalhe do terreno com erosão procedural e casa colonial.
-![Depois do Cercamento](./src/assets/depois.png)
-
-👨‍💻 Desenvolvedor
+🎓 Autor
 Enio Carlos Silva Oliveira
 
-Estudante de Engenharia Civil e Ambiental (UNIVALE)
+Graduando em Engenharia Civil e Ambiental - UNIVALE
+
+
+### Como aplicar agora:
+1. Abra o arquivo `README.md` no seu VS Code.
+2. **Apague tudo** o que tem lá dentro.
+3. Cole exatamente esse código acima.
+4. Salve (`Ctrl + S`).
+5. Rode no terminal para subir essa atualização:
+   ```bash
+   git add .
+   git commit -m "Melhorando estrutura do README"
+   git push origin main
