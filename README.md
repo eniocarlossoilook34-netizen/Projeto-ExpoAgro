@@ -1,6 +1,7 @@
 Flux Rural Intelligence
 Gêmeo Digital para Monitoramento de Nascentes e Gestão de Riscos Hídricos
 
+
 🎯 Sobre o Projeto
 O Flux Rural Intelligence é uma plataforma de monitoramento e simulação em tempo real, projetada para auxiliar na gestão de recursos hídricos e na proteção de nascentes. Utilizando tecnologias de Digital Twin e WebGL, o projeto permite que profissionais de engenharia e proprietários rurais visualizem o impacto de ações de preservação, como o cercamento de nascentes e o manejo de solo, com alta fidelidade geográfica.
 
